@@ -1,0 +1,106 @@
+[
+    {
+        "name": "psr/log",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/php-fig/log/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d.zip",
+            "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-10-10 12:19:37",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "txthinking/mailer",
+        "version": "v2.0.0",
+        "version_normalized": "2.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/txthinking/Mailer.git",
+            "reference": "648ca5af24227ddb4aab3410576169434e4e8127"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/txthinking/Mailer/648ca5af24227ddb4aab3410576169434e4e8127.zip",
+            "reference": "648ca5af24227ddb4aab3410576169434e4e8127",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2",
+            "psr/log": "~1.0"
+        },
+        "require-dev": {
+            "erb/testing-tools": "dev-master",
+            "monolog/monolog": "~1.13",
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2018-01-31 10:03:26",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Tx\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Cloud",
+                "email": "cloud@txthinking.com",
+                "homepage": "http://www.txthinking.com",
+                "role": "Thinker"
+            },
+            {
+                "name": "Matt Sowers",
+                "email": "msowers@erblearn.org"
+            }
+        ],
+        "description": "A very lightweight PHP SMTP mail sender",
+        "homepage": "http://github.com/txthinking/Mailer",
+        "keywords": [
+            "mail",
+            "smtp"
+        ]
+    }
+]
